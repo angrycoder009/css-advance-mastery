@@ -1,0 +1,33 @@
+h1{
+    font-size: smaller;
+    text-align: center;
+}
+
+/** type of selector -
+element selector -->> p h1, section , div
+id selector
+class selector
+group selector
+ 
+specifity order ->
+style slector > id selector > class selector > element selector
+we can override using  !important
+***/
+p{
+    background-color: aquamarine;
+}
+
+#p4{
+    color: azure;
+    background-color: violet;
+}
+#article{
+    background-color: red;
+}
+article{
+    background-color: blanchedalmond;
+}
+.article{
+    background-color: green;
+}
+

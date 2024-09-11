@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <!---order matter but here external css>>internal css
+    because external css comes before internal css
+    -->
+
+
+    <!----INTERNAL CSS ->> add your style element in head tage---->
+    <style>
+
+        /*selector*/
+        h1{
+            /*prop :value */
+            color: green;
+        }
+
+        p{ 
+            /* inline css >> internal css -- in term of styling 
+            we can change by using important
+            */
+            background-color: blueviolet ;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to my website</h1>
+   <!--INLINE CSS -> add css by using element tags directy into tag in it-->
+    <!-- <p style="background-color: yellow;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Autem, vitae? Odit, quis. Magnam, ipsam?
+          Sequi doloremque error delectus minima quasi!
+    </p> -->
+
+    <p style="color: aqua;">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+         Molestias quod amet eligendi sed suscipit consequuntur,
+         culpa aut reprehenderit ea! Obcaecati aliquid officiis, 
+         soluta vitae ratione quam odit laboriosam at cupiditate!   
+    </p>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+         Quo mollitia nobis, ipsum laudantium ipsam assumenda ratione rem rerum ad consectetur voluptates quasi,
+          repudiandae adipisci saepe nisi quod a asperiores vitae, fugit itaque tenetur? Ipsam ullam optio, 
+        saepe illo reprehenderit quos temporibus omnis numquam fuga similique obcaecati at eligendi ut possimus.
+
+    </p  id ="p4">
+  <article class="article" id="article">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+     Dicta saepe, obcaecati magni esse voluptate, 
+     necessitatibus quod repellendus doloribus illum alias consequuntur
+      reprehenderit, nesciunt maiores nihil aspernatur aperiam sed quos? Quisquam facere asperiores quo quae ipsum quibusdam non fugit quasi voluptate porro ex enim voluptatem, nulla nesciunt.
+     Dolore aut qui blanditiis repellendus!
+    </article>
+  <script src="App.js"></script>
+</body>
+</html>
