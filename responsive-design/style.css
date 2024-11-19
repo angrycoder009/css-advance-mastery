@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#box{
+    background-color: crimson;
+    height: 300px;
+    width: 300px;
+
+}
+
+#inner{
+    background-color: royalblue;
+    height: 50%;
+    width: 50%;
+
+}
